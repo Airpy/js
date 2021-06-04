@@ -13,11 +13,6 @@
  [Script]
  cron "1 10-23/1 1-18 6 *" script-path=https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/long_hby_lottery.js,tag=618主会场红包雨
 
- ===============Surge=================
- 618主会场红包雨 = type=cron,cronexp="1 10-23/1 1-18 6 *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/long_hby_lottery.js
-
- ============小火箭=========
- 618主会场红包雨= type=cron,script-path=https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/long_hby_lottery.js, cronexpr="1 10-23/1 1-18 6 *",timeout=200, enable=true
  */
 const $ = new Env('618主会场红包雨');
 //Node.js用户请在jdCookie.js处填写京东ck;
