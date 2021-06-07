@@ -13,7 +13,8 @@
 
     cron表达式 0 * * * * 或者 0 0 * * * *
     hostname = m.jingxi.com
-
+[task_local]
+0 * * * * ,https://raw.githubusercontent.com/moposmall/Script/main/Me/jx_mc.js tag=京喜牧场
     BoxJS订阅
     https://raw.githubusercontent.com/whyour/hundun/master/quanx/whyour.boxjs.json
 *
