@@ -1,6 +1,8 @@
 /*
 author：tg@chenxing666
 国潮
+[task_local]
+33 0,6-23/2 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_zoo.js, tag=国潮
 */
 const $ = new Env('国潮');
 
