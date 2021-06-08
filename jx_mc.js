@@ -1,3 +1,21 @@
+/*
+京喜领88元红包
+活动入口：京喜app-》我的-》京喜领88元红包
+助力逻辑：先自己京东账号相互助力，如有剩余助力机会，则助力作者
+温馨提示：如提示助力火爆，可尝试寻找京东客服
+脚本兼容: Quantumult X, Surge, Loon, JSBox, Node.js
+==============Quantumult X==============
+[task_local]
+#京喜领88元红包
+0 * * * * https://jdsharedresourcescdn.azureedge.net/jdresource/jd_jxlhb.js, tag=京喜领88元红包, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
+==============Loon==============
+[Script]
+cron "0 * * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_jxlhb.js,tag=京喜领88元红包
+================Surge===============
+京喜领88元红包 = type=cron,cronexp="0 * * * *",wake-system=1,timeout=3600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_jxlhb.js
+===============小火箭==========
+京喜领88元红包 = type=cron,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_jxlhb.js, cronexpr="0 * * * *", timeout=3600, enable=true
+ */
 /**
 *
     Name: 京喜牧场
