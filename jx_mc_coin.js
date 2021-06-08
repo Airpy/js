@@ -4,7 +4,7 @@
 =================================Quantumultx=========================
 [task_local]
 #京喜牧场刷金币
-10 * * * * https://jdsharedresourcescdn.azureedge.net/jdresource/jd_big_winner.js, tag=京喜牧场刷金币
+10 * * * * https://raw.githubusercontent.com/knowledgeablelmh/js/main/jx_mc_coin.js, tag=京喜牧场刷金币
 
  */
 // prettier-ignore
