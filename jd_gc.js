@@ -4,7 +4,7 @@
 脚本兼容: Quantumult X, Surge, Loon, JSBox, Node.js
 ==============Quantumult X==============
 [task_local]
-#京喜领88元红包
+#国潮
 0 */2 * * * https://jdsharedresourcescdn.azureedge.net/jdresource/jd_jxlhb.js, tag=国潮
 
 */
