@@ -5,17 +5,17 @@
 ==============Quantumult X==============
 [task_local]
 #国潮
-0 */2 * * * https://jdsharedresourcescdn.azureedge.net/jdresource/jd_jxlhb.js, tag=国潮
+0 */2 * * * https://raw.githubusercontent.com/knowledgeablelmh/js/main/jd_gc.js, tag=国潮
 
 =================================Loon===================================
 [Script]
-cron "0 */2 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_big_winner.js,tag=国潮
+cron "0 */2 * * *" script-path=https://raw.githubusercontent.com/knowledgeablelmh/js/main/jd_gc.js,tag=国潮
 
 ===================================Surge================================
-国潮 = type=cron,cronexp="0 */2 * * *",wake-system=1,timeout=3600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_big_winner.js
+国潮 = type=cron,cronexp="0 */2 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/knowledgeablelmh/js/main/jd_gc.js
 
 ====================================小火箭=============================
-国潮 = type=cron,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_big_winner.js, cronexpr="0 */2 * * *", timeout=3600, enable=true
+国潮 = type=cron,script-path=https://raw.githubusercontent.com/knowledgeablelmh/js/main/jd_gc.js, cronexpr="0 */2 * * *", timeout=3600, enable=true
 
 */
 
