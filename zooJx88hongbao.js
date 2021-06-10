@@ -5,7 +5,7 @@
 =================================Quantumultx=========================
 [task_local]
 #京喜88红包
-8 8 * 6 * https://raw.githubusercontent.com/knowledgeablelmh/js/main/ooJx88hongbao.js, tag=京喜88红包
+8 8 * 6 * https://raw.githubusercontent.com/knowledgeablelmh/js/main/zooJx88hongbao.js, tag=京喜88红包
  */
 
  const $ = new Env("京喜88红包");
