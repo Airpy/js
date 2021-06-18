@@ -1,4 +1,12 @@
 /*
+京东抽奖机&内部互助
+脚本兼容: QuantumultX, Surge,Loon, JSBox, Node.js
+=================================Quantumultx=========================
+[task_local]
+#与'粽'不同
+13 1,22,23 * * * https://raw.githubusercontent.com/knowledgeablelmh/js/main/jd_lotteryMachine.js, tag=京东抽奖机&内部互助
+ */
+/*
 京东抽奖机 https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_lotteryMachine.js
 author：yangtingxiao
 github： https://github.com/yangtingxiao
