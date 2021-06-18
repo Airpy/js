@@ -1,4 +1,12 @@
 /*
+京东排行榜
+脚本兼容: QuantumultX, Surge,Loon, JSBox, Node.js
+=================================Quantumultx=========================
+[task_local]
+京东排行榜
+15 13 * * * https://raw.githubusercontent.com/knowledgeablelmh/js/main/jd_rankingList.js, tag=京东排行榜
+ */
+/*
 
 活动入口：京东APP首页-更多频道-排行榜-悬浮按钮
 
