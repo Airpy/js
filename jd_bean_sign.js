@@ -1,4 +1,13 @@
 /*
+京东多合一签到
+脚本兼容: QuantumultX, Surge,Loon, JSBox, Node.js
+活动时间：长期
+=================================Quantumultx=========================
+[task_local]
+#京东多合一签到
+15 9 * * * https://raw.githubusercontent.com/knowledgeablelmh/js/main/jd_bean_sign.js, tag=京东多合一签到
+ */
+/*
 京东多合一签到,自用,可N个京东账号
 活动入口：各处的签到汇总
 Node.JS专用
