@@ -1,5 +1,14 @@
 /*
 京享值PK
+脚本兼容: QuantumultX, Surge,Loon, JSBox, Node.js
+活动入口：京东APP-我的-京享值
+=================================Quantumultx=========================
+[task_local]
+#京享值PK
+15 3,6,13,19,21 * * * https://raw.githubusercontent.com/knowledgeablelmh/js/main/jd_ddo_pk.js, tag=京享值PK
+ */
+/*
+京享值PK
 作者：laibur
 cron 15 0,6,13,19,21 * * * jd_jxzpk.js
 活动入口：京东APP-我的-京享值
