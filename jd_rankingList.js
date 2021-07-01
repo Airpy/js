@@ -1,19 +1,24 @@
 /*
-京东排行榜
-脚本兼容: QuantumultX, Surge,Loon, JSBox, Node.js
-=================================Quantumultx=========================
-[task_local]
-京东排行榜
-15 13 * * * https://raw.githubusercontent.com/knowledgeablelmh/js/main/jd_rankingList.js, tag=京东排行榜
- */
-/*
 
 活动入口：京东APP首页-更多频道-排行榜-悬浮按钮
 
 自用
 author：yangtingxiao
 github： https://github.com/yangtingxiao
- */
+/*
+============Quantumultx==============
+[task_local]
+#京东排行榜
+10 8 * * * jd_zxry.js, tag=京东排行榜, enabled=true
+================龙==============
+[脚本]
+cron "10 8 * * *" script-path=jd_zxry.js,tag=京东排行榜
+==============电涌================
+京东排行榜 = type=cron,cronexp="10 8 * * *",wake-system=1,timeout=3600,script-path=jd_zxry.js
+============小火箭==========
+京东排行榜 = type=cron,script-path=jd_zxry.js, cronexpr="10 8 * * *", timeout=3600, enable=true
+*/
+
 const $ = new Env('京东排行榜');
 main();
 async function main() {
